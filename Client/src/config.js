@@ -1,4 +1,4 @@
 export const config={
    
-    api:"https://zenclass-ticketing-system.onrender.com"
+    api:"https://ticketing-system-for-query-resolving.onrender.com"
 }
