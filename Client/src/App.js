@@ -25,7 +25,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<MentorRegister />} />
+      <Route path="/" element={<UserLogin />} />
       <Route path="/user/register" element={<UserRegister />} />
       <Route path="/mentor/login" element={<MentorLogin />} />
       <Route path="/mentor/register" element={<MentorRegister />} />
