@@ -30,7 +30,7 @@ function UserLogin () {
       if (!values.userpassword) {
         error.userpassword = "Please enter your password";
       }
-      if (values.userpassword && (values.userpassword.length <= 8 || values.userpassword.length > 20)) {
+      if (values.userpassword && (values.userpassword.length < 8 || values.userpassword.length > 20)) {
         error.userpassword = "Password minimum 8 to 20 Characters";
       }
 
